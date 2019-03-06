@@ -1,0 +1,1 @@
+ -X POST http://localhost:4000/channels  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MjQ1NTc5MzMsInVzZXJuYW1lIjoiSmltIiwib3JnTmFtZSI6Ik9yZzEiLCJpYXQiOjE1MjQ1MjE5MzN9.xGL4W7QKVJmZRUJywVIDBlGKwD2xjDQnUrXn7piWCWI"  -H "content-type: application/json" -d '{"channelName":"mychannel","channelConfigPath":"artifacts/channel/mychannel.tx"}
